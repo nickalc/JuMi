@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/awesome_orange" />
+
+        <!--<com.puxiang.jumi.view.SlidingTabLayout-->
+            <!--android:id="@+id/sliding_tabs"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/awesome_orange"-->
+            <!--android:paddingLeft="20dp"-->
+            <!--android:paddingRight="20dp" />-->
+
+        <com.puxiang.jumi.view.smartlayout.SmartTabLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/viewpagertab"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_49"
+            android:paddingBottom="0dp"
+            android:background="@color/white"
+            app:stl_customTabTextLayoutId="@layout/custom_tab"
+            app:stl_defaultTabTextColor="@color/black"
+            app:stl_distributeEvenly="true"
+            app:stl_indicatorColor="@color/awesome_orange"
+            app:stl_indicatorCornerRadius="1.5dp"
+            app:stl_indicatorInterpolation="smart"
+            app:stl_indicatorThickness="1.5dp"
+            app:stl_underlineColor="@color/transparent"
+            />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:background="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

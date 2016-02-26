@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android-PullToRefresh/Android-PullToRefresh.iml" filepath="$PROJECT_DIR$/Android-PullToRefresh/Android-PullToRefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bannerlibrary/Bannerlibrary.iml" filepath="$PROJECT_DIR$/Bannerlibrary/Bannerlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BaseKit/BaseKit.iml" filepath="$PROJECT_DIR$/BaseKit/BaseKit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JuMi.iml" filepath="$PROJECT_DIR$/JuMi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kanner/kanner.iml" filepath="$PROJECT_DIR$/kanner/kanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpagerlibrary/viewpagerlibrary.iml" filepath="$PROJECT_DIR$/viewpagerlibrary/viewpagerlibrary.iml" />
+    </modules>
+  </component>
+</project>

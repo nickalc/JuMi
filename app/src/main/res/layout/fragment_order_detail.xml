@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_15"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="@dimen/space_10"
+                    android:ellipsize="end"
+                    android:text="洗车服务"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/text_size_16" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="@dimen/space_10"
+                    android:src="@mipmap/arrow_right" />
+
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="@dimen/space_8"
+                android:layout_marginRight="@dimen/space_8"
+                android:background="@color/divider_color" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/titleImageView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/space_10"
+                    android:text="精洗" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="@dimen/space_8"
+                    android:text="1"
+                    android:textColor="@color/awesome_orange"
+                    android:textSize="@dimen/text_size_18" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="@dimen/space_8"
+                    android:ellipsize="end"
+                    android:text="￥38"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="@dimen/text_size_14" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dip"
+                android:layout_marginLeft="@dimen/space_8"
+                android:layout_marginRight="@dimen/space_8"
+                android:background="@color/divider_color" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/space_10"
+                    android:text="精洗" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="@dimen/space_8"
+                    android:text="1"
+                    android:textColor="@color/awesome_orange"
+                    android:textSize="@dimen/text_size_18" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="@dimen/space_8"
+                    android:ellipsize="end"
+                    android:text="￥38"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="@dimen/text_size_14" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_15"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="@dimen/space_10"
+                    android:ellipsize="end"
+                    android:text="满减优惠"
+                    android:textColor="@color/awesome_orange"
+                    android:textSize="@dimen/text_size_14" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="@dimen/space_8"
+                    android:ellipsize="end"
+                    android:text="- ￥4"
+                    android:textColor="@color/awesome_orange"
+                    android:textSize="@dimen/text_size_14" />
+
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dip"
+                android:layout_marginLeft="@dimen/space_8"
+                android:layout_marginRight="@dimen/space_8"
+                android:background="@color/divider_color" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/space_10"
+                    android:text="优惠券(使用)"
+                    android:textColor="@color/awesome_orange"
+                    android:textSize="@dimen/text_size_14" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="@dimen/space_8"
+                    android:ellipsize="end"
+                    android:text="- ￥4"
+                    android:textColor="@color/awesome_orange"
+                    android:textSize="@dimen/text_size_14" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dip"
+                android:layout_marginLeft="@dimen/space_8"
+                android:layout_marginRight="@dimen/space_8"
+                android:background="@color/divider_color" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/space_10"
+                    android:text="合计"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/text_size_16" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="@dimen/space_8"
+                    android:ellipsize="end"
+                    android:text="￥38"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/text_size_14" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_15"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/space_10"
+                    android:src="@mipmap/comment" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/comment"
+                    android:ellipsize="end"
+                    android:text="我的评论"
+                    android:textColor="@color/awesome_orange"
+                    android:textSize="@dimen/text_size_14" />
+
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dip"
+                android:layout_marginLeft="@dimen/space_8"
+                android:layout_marginRight="@dimen/space_8"
+                android:background="@color/divider_color" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="@dimen/space_8"
+                    android:src="@mipmap/star" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_20">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/space_10"
+                    android:text="商品质量 5   配送服务 5"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="@dimen/text_size_14" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/nick/MobileProject/AndroidStudio/JuMi/Bannerlibrary/src/main/res"><file name="selector_bgabanner_point" path="/Users/nick/MobileProject/AndroidStudio/JuMi/Bannerlibrary/src/main/res/drawable/selector_bgabanner_point.xml" qualifiers="" type="drawable"/><file path="/Users/nick/MobileProject/AndroidStudio/JuMi/Bannerlibrary/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="BGABanner">
+        <!-- 指示点容器背景 -->
+        <attr format="reference|color" name="banner_pointContainerBackground"/>
+        <!-- 指示点背景 -->
+        <attr format="reference" name="banner_pointDrawable"/>
+        <!-- 指示点容器左右内间距 -->
+        <attr format="dimension" name="banner_pointContainerLeftRightPadding"/>
+        <!-- 指示点上下外间距 -->
+        <attr format="dimension" name="banner_pointTopBottomMargin"/>
+        <!-- 指示点左右外间距 -->
+        <attr format="dimension" name="banner_pointLeftRightMargin"/>
+        <!-- 指示点的位置 -->
+        <attr name="banner_pointGravity">
+            <flag name="top" value="0x30"/>
+            <flag name="bottom" value="0x50"/>
+            <flag name="left" value="0x03"/>
+            <flag name="right" value="0x05"/>
+            <flag name="center_horizontal" value="0x01"/>
+        </attr>
+        <!-- 是否开启自动轮播 -->
+        <attr format="boolean" name="banner_pointAutoPlayAble"/>
+        <!-- 自动轮播的时间间隔 -->
+        <attr format="integer" name="banner_pointAutoPlayInterval"/>
+        <!-- 页码切换过程的时间长度 -->
+        <attr format="integer" name="banner_pageChangeDuration"/>
+        <!-- 页面切换的动画效果 -->
+        <attr format="enum" name="banner_transitionEffect">
+            <enum name="defaultEffect" value="0"/>
+            <enum name="alpha" value="1"/>
+            <enum name="rotate" value="2"/>
+            <enum name="cube" value="3"/>
+            <enum name="flip" value="4"/>
+            <enum name="accordion" value="5"/>
+            <enum name="zoomFade" value="6"/>
+            <enum name="fade" value="7"/>
+            <enum name="zoomCenter" value="8"/>
+            <enum name="zoomStack" value="9"/>
+            <enum name="stack" value="10"/>
+            <enum name="depth" value="11"/>
+            <enum name="zoom" value="12"/>
+        </attr>
+        <!-- 提示文案的文字颜色 -->
+        <attr format="reference|color" name="banner_tipTextColor"/>
+        <!-- 提示文案的文字大小 -->
+        <attr format="dimension" name="banner_tipTextSize"/>
+    </declare-styleable></file><file path="/Users/nick/MobileProject/AndroidStudio/JuMi/Bannerlibrary/src/main/res/values/ids.xml" qualifiers=""><item name="banner_pointContainerId" type="id"/></file></source><source path="/Users/nick/MobileProject/AndroidStudio/JuMi/Bannerlibrary/build/generated/res/rs/debug"/><source path="/Users/nick/MobileProject/AndroidStudio/JuMi/Bannerlibrary/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug"><source path="/Users/nick/MobileProject/AndroidStudio/JuMi/Bannerlibrary/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="BGABanner"><attr format="reference|color" name="banner_pointContainerBackground"/><attr format="reference" name="banner_pointDrawable"/><attr format="dimension" name="banner_pointContainerLeftRightPadding"/><attr format="dimension" name="banner_pointTopBottomMargin"/><attr format="dimension" name="banner_pointLeftRightMargin"/><attr name="banner_pointGravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_horizontal" value="0x01"/></attr><attr format="boolean" name="banner_pointAutoPlayAble"/><attr format="integer" name="banner_pointAutoPlayInterval"/><attr format="integer" name="banner_pageChangeDuration"/><attr format="enum" name="banner_transitionEffect"><enum name="defaultEffect" value="0"/><enum name="alpha" value="1"/><enum name="rotate" value="2"/><enum name="cube" value="3"/><enum name="flip" value="4"/><enum name="accordion" value="5"/><enum name="zoomFade" value="6"/><enum name="fade" value="7"/><enum name="zoomCenter" value="8"/><enum name="zoomStack" value="9"/><enum name="stack" value="10"/><enum name="depth" value="11"/><enum name="zoom" value="12"/></attr><attr format="reference|color" name="banner_tipTextColor"/><attr format="dimension" name="banner_tipTextSize"/></declare-styleable></configuration></mergedItems></merger>

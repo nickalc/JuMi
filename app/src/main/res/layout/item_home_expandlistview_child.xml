@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_order_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_margin="2dp"
+        android:background="@color/white"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:id="@+id/titleImageView"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/space_5"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/index_img" />
+
+        <TextView
+            android:id="@+id/text_problem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space_5"
+            android:layout_toEndOf="@+id/titleImageView"
+            android:layout_toRightOf="@+id/titleImageView"
+            android:ellipsize="end"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_14"
+            android:textStyle="bold"
+            android:text="这是标题" />
+
+        <TextView
+            android:id="@+id/text_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_problem"
+            android:layout_margin="@dimen/space_5"
+            android:layout_toRightOf="@+id/titleImageView"
+            android:ellipsize="end"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/text_size_14"
+            android:text="这是标题1" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

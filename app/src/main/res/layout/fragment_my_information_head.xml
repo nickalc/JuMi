@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@mipmap/person_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_user_container"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <RelativeLayout
+            android:id="@+id/rl_user_center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clickable="true" >
+
+            <com.puxiang.jumi.view.CircleImageView
+                android:id="@+id/iv_avatar"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/space_49"
+                android:contentDescription="@null"
+                android:src="@mipmap/menu6" />
+
+            <ImageView
+                android:id="@+id/iv_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/iv_avatar"
+                android:layout_alignRight="@id/iv_avatar" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_avatar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/space_5"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_18" />
+
+            <ImageView
+                android:id="@+id/iv_qr_code"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/space_10"
+                android:visibility="gone"
+                android:clickable="true"
+                android:src="@mipmap/menu1" />
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:background="#b0000000"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/ly_score"
+                style="@style/uset_information_ll" >
+
+                <TextView
+                    android:id="@+id/tv_score"
+                    style="@style/user_formation_text"
+                    android:text="0元"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="巨米红包" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ly_follower"
+                style="@style/uset_information_ll" >
+
+                <TextView
+                    android:id="@+id/tv_follower"
+                    style="@style/user_formation_text"
+                    android:text="0元"/>
+
+                <TextView
+                    style="@style/user_formation_text"
+                    android:text="巨米代金券"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_user_unlogin"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <com.puxiang.jumi.view.CircleImageView
+            android:id="@+id/iv_avatar1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/space_20"
+            android:contentDescription="@null"
+            android:src="@mipmap/menu6"
+            app:border_color="@color/white"
+            app:border_width="3dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_avatar1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/space_5"
+            android:text="@string/my_information_unlogin_tips"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_18" />
+    </RelativeLayout>
+
+</FrameLayout>

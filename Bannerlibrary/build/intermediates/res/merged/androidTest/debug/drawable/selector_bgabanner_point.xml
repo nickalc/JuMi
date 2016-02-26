@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <shape android:shape="oval">
+            <size android:width="6dp" android:height="6dp" />
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <size android:width="6dp" android:height="6dp" />
+            <solid android:color="#ddd" />
+        </shape>
+    </item>
+</selector><!-- From: file:/Users/nick/MobileProject/AndroidStudio/JuMi/Bannerlibrary/src/main/res/drawable/selector_bgabanner_point.xml --><!-- From: file:/Users/nick/MobileProject/AndroidStudio/JuMi/Bannerlibrary/build/intermediates/bundles/debug/res/drawable/selector_bgabanner_point.xml -->

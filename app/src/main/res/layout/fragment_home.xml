@@ -1,0 +1,242 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <cn.bingoogolapple.bgabanner.BGABanner
+        android:id="@+id/banner_main_default"
+        style="@style/BannerDefaultStyle"
+        android:background="@color/white"
+        app:banner_pointGravity="bottom|right"
+        app:banner_transitionEffect="depth" />
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/myviewpager"
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/space_15"
+        android:layout_height="165dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/liner1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+
+        ></LinearLayout>
+
+    <com.viewpagerindicator.LinePageIndicator
+        android:id="@+id/indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:background="@color/white"
+        android:padding="5dip" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="推广获大礼"
+                    android:textColor="@color/awesome_orange"
+                    android:textSize="@dimen/text_size_16" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="推广获大礼"
+                    android:textSize="@dimen/text_size_12"/>
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/index_img" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0.3dp"
+            android:layout_height="match_parent"
+            android:background="@color/between_line" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="推广获大礼"
+                    android:textColor="@color/awesome_orange"
+                    android:textSize="@dimen/text_size_16" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="推广获大礼"
+                    android:textSize="@dimen/text_size_12"/>
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/index_img" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/between_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="推广获大礼"
+                    android:textColor="@color/awesome_orange"
+                    android:textSize="@dimen/text_size_16" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="推广获大礼"
+                    android:textSize="@dimen/text_size_12"/>
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/index_img" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0.3dp"
+            android:layout_height="match_parent"
+            android:background="@color/between_line" />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="推广获大礼"
+                    android:textColor="@color/awesome_orange"
+                    android:textSize="@dimen/text_size_16" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="推广获大礼"
+                    android:textSize="@dimen/text_size_12"/>
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/index_img" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

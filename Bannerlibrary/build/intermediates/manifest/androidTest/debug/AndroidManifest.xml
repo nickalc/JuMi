@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.bingoogolapple.bgabanner.test" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="23" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for cn.bingoogolapple.bgabanner.test"
+        android:targetPackage="cn.bingoogolapple.bgabanner.test" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+</manifest>

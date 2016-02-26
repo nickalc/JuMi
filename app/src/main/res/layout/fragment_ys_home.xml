@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+
+        <ExpandableListView
+            android:id="@+id/pull_refresh_expandable_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="#00000000"
+            android:dividerHeight="0dp"
+            android:groupIndicator="@null"
+            android:scrollbars="none"/>
+
+    </LinearLayout>
+
+</LinearLayout>

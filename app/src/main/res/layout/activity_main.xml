@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/menu_line" />
+
+    <View
+        android:id="@+id/menu_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_above="@+id/tab_main"
+        android:background="@color/between_line"
+        />
+    <include
+        android:id="@+id/tab_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/tab_bottom" />
+
+</RelativeLayout>

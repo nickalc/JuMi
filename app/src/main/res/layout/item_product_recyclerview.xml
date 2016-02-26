@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_order_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="@dimen/space_8"
+        android:layout_marginRight="@dimen/space_8"
+        android:foreground="?attr/selectableItemBackground"
+        android:stateListAnimator="@anim/touch_raise"
+        android:layout_marginTop="2dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:id="@+id/prodImageView"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/space_10"
+                android:scaleType="fitCenter"
+                tools:src="@mipmap/index_img" />
+
+            <TextView
+                android:id="@+id/prodName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space_5"
+                android:layout_toEndOf="@+id/prodImageView"
+                android:layout_toRightOf="@+id/prodImageView"
+                android:ellipsize="end"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_size_18"
+                tools:text="欧美办公室桌椅套餐" />
+
+            <LinearLayout
+                android:id="@+id/orderPriceLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/prodName"
+                android:layout_margin="@dimen/space_5"
+                android:layout_toRightOf="@+id/prodImageView"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/prodPriceView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:textColor="@color/awesome_orange"
+                    android:textSize="@dimen/text_size_16"
+                    tools:text="￥388" />
+
+                <TextView
+                    android:id="@+id/oldProdPriceView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_10"
+                    android:ellipsize="end"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="@dimen/text_size_14"
+                    tools:text="原价￥988" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/orderPriceLayout"
+                android:layout_margin="@dimen/space_5"
+                android:layout_toRightOf="@+id/prodImageView"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/star"/>
+
+                <TextView
+                    android:id="@+id/salesNums"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="@dimen/text_size_14"
+                    tools:text="月销量5632单" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

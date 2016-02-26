@@ -1,0 +1,9 @@
+<com.facebook.drawee.view.SimpleDraweeView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_image_view"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:clickable="true"
+    app:placeholderImage="@drawable/notification_template_icon_bg"
+    app:placeholderImageScaleType="centerCrop" />

@@ -1,0 +1,2 @@
+include ':app', ':BaseKit', ':Bannerlibrary', ':Android-PullToRefresh', ':kanner'
+include ':viewpagerlibrary'
