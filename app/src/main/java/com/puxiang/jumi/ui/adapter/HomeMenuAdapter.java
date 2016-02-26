@@ -70,8 +70,8 @@ public class HomeMenuAdapter extends BaseAdapter {
         final HashMap<String, Object> appInfo = mList.get(position);
         ImageView appicon = (ImageView) convertView.findViewById(R.id.menu_icon);
         final TextView appname = (TextView) convertView.findViewById(R.id.menu_name);
-        appicon.setImageResource(R.mipmap.menu_1);
-      //  appname.setText(appInfo.get("text_item").toString());
+        appicon.setImageResource((Integer)appInfo.get("icon"));
+        appname.setText(appInfo.get("name").toString());
         convertView.setOnClickListener(new OnClickListener() {
 
             @Override

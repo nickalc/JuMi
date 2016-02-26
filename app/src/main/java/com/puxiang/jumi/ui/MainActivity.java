@@ -14,8 +14,8 @@ import android.widget.RadioGroup;
 
 import com.puxiang.jumi.R;
 import com.puxiang.jumi.ui.fragments.HomeFagment;
+import com.puxiang.jumi.ui.fragments.MeFagment;
 import com.puxiang.jumi.ui.fragments.OrderFagment;
-import com.puxiang.jumi.ui.fragments.YSHomeFagment;
 import com.rogers.kit.base.BaseActivity;
 
 /**
@@ -127,8 +127,8 @@ public class MainActivity extends BaseActivity {
                     fragment = new OrderFagment();
                     break;
                 case 2://我
-                  //  fragment = new MeFagment();
-                    fragment = new YSHomeFagment();
+                    fragment = new MeFagment();
+                  //  fragment = new YSHomeFagment();
                     break;
                 default:
                     new HomeFagment();
